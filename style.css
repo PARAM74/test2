@@ -1,4 +1,4 @@
-*{
+ *{
   margin: 0;
   padding: 0;
 }
@@ -66,7 +66,7 @@ body{
     letter-spacing: 1px;
 }
 .container-text h4{
-    color: #fff;
+    color: #fff; 
     font-size: 32px;
     font-weight: 400;
     letter-spacing: .3px;
@@ -88,9 +88,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+color: white;
 }
 
 li {
   display: inline;
+color: white;
 }
 
