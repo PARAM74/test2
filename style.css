@@ -17,7 +17,7 @@ body{
   padding: 23px 50px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: ;
   
 }
 
@@ -74,7 +74,7 @@ body{
 }
 
 .social-icon .fa-brands{
-  color: white;
+  color: #fff;
   margin-top: 10px;
   padding: 20px 15px;
   font-size: 20px;
@@ -88,12 +88,12 @@ body{
   list-style-type: none;
   margin: 0;
   padding: 0;
-color: white;
+color: #fff;
 }
 
 .li {
   display: inline;
-color: white;
+color: #fff;
 }
 
 .footer {
@@ -102,7 +102,7 @@ color: white;
    bottom: 0;
    width: 100%;
    
-   color: white;
+   color: #fff
    text-align: center;
 }
 
