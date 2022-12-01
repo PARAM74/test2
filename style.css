@@ -1,40 +1,85 @@
-.rotate {
-  animation: rotation 20s;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/prot-272c4.appspot.com/o/IMG_20220716_195558.JPG?alt=media&token=6dfe18d0-06dd-4869-bcc0-28d7050c78ae');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Poppins;
+  overflow: hidden;
 }
 
-.linear {
-  animation-timing-function: linear;
+.nav-bar{
+  padding: 23px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
-.infinite {
-  animation-iteration-count: infinite;
+.nav-bar .logo img{
+  width: 110px;
+  padding-bottom: 0.3125rem;
+  padding-top: 0.3125rem;
+}
+.fa-solid{
+  color: white;
+  font-size: 22px;
+  display: none;
+}
+.nav-menu ul li{
+  display: inline-block;
+  padding-bottom: 0.3125rem;
+  padding-top: 0.3125rem;
+}
+.nav-menu ul li a{
+  text-decoration: none;
+  margin-right: 32px;
+  color: #e6e6e6;
+  font-size: 15px;
+  padding: 0;
+  font-weight: 500;
+}
+.nav-menu ul li a:hover{
+  color: hotpink;
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+.container{
+  width: 100%;
+  height: 100vh;
+}
+.container-text{
+ height: 100vh;
+ display: flex;
+  flex-direction: column;
+ align-items: center!important;
+ justify-content: center!important;
+}
+.container-text h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.container-text h4{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    margin-bottom: 0;
 }
 
-
-
-
-/*
-
-.rotate {
-  animation: rotation 2s infinite linear;
+.social-icon .fa-brands{
+  color: white;
+  margin-top: 10px;
+  padding: 20px 15px;
+  font-size: 20px;
+}
+.social-icon .fa-brands:hover{
+  color: hotpink;
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-
-*/
